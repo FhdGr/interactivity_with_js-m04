@@ -30,6 +30,7 @@ main {
 figcaption {
   border: none;
   font-size: 100%;
+  background-color: #fff;
 }
 img {
   border: 5px solid #000;
