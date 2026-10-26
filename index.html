@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="focusOn()">
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <main>
+        <figure>
+            <img class="preview" alt="Mercedes Benz AMG C63S"
+                src="https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                onmouseover="upDate(this)" onmouseout="unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+            <figcaption>
+                Photo by <a
+                    href="https://unsplash.com/@dhivakrishna?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dhiva
+                    Krishna</a> on <a
+                    href="https://unsplash.com/photos/black-mercedes-benz-car-YApS6TjKJ9c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img class="preview" alt="Sports car"
+                src="https://images.unsplash.com/photo-1602777924012-f8664ffeed27?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                onmouseover="upDate(this)" onmouseout="unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+            <figcaption>
+                Photo by <a
+                    href="https://unsplash.com/@bbtl?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Josh
+                    Berquist</a> on <a
+                    href="https://unsplash.com/photos/black-porsche-911-parked-on-sidewalk-during-daytime-0kxOW0I-HLM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img class="preview" alt="Fall Drives on Country Roads"
+                src="https://images.unsplash.com/photo-1541348263662-e068662d82af?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                onmouseover="upDate(this)" onmouseout="unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+            <figcaption>
+                Photo by <a
+                    href="https://unsplash.com/@rpnickson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Roberto
+                    Nickson</a> on <a
+                    href="https://unsplash.com/photos/black-vehicle-on-road-between-trees-during-daytime-Yp9FdEqaCdk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img class="preview" alt="Champagne Quartz BMW M3"
+                src="https://images.unsplash.com/photo-1607854962760-514f1c4a8609?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                onmouseover="upDate(this)" onmouseout="unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+            <figcaption>
+                Photo by <a
+                    href="https://unsplash.com/@tyler_clemmensen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler
+                    Clemmensen</a> on <a
+                    href="https://unsplash.com/photos/gray-bmw-m-3-on-road-during-daytime-nOrLbpXgNs4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img class="preview" alt="Red sports car"
+                src="https://images.unsplash.com/photo-1579200152039-7051de8a159c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                onmouseover="upDate(this)" onmouseout="unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+            <figcaption>
+                Photo by <a
+                    href="https://unsplash.com/@stevenbinotto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Steven
+                    Binotto</a> on <a
+                    href="https://unsplash.com/photos/red-coupe-parking-near-road-beside-brown-high-rise-buildings-F1fBfv3lT6I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img class="preview" alt="Silver Lexus sedan"
+                src="https://images.unsplash.com/photo-1568074532275-b57393b08c64?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                onmouseover="upDate(this)" onmouseout="unDo()" onfocus="focusOn(this)" onblur="focusOff()">
+            <figcaption>
+                Photo by <a
+                    href="https://unsplash.com/@stevenbinotto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Steven
+                    Binotto</a> on <a
+                    href="https://unsplash.com/photos/silver-lexus-sedan-9E1o3CsYmm0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+    </main>
+</body>
+
+</html>
